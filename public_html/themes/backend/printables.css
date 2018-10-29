@@ -1,0 +1,242 @@
+@page {
+    margin:0.5cm;
+}
+
+@media screen {
+    .page {
+        margin:0.63em auto 0;
+    }
+}
+
+@media print {
+    .page {
+        margin:0;
+    }
+}
+
+.page {
+    position: relative;
+    page-break-after: always;
+}
+
+.page:last-of-type {
+    page-break-after: avoid;
+}
+
+.page.portrait {    
+    height: 98em;
+    width: 68.7em;
+}
+
+.page.landscape {    
+    width: 100.5em;
+    height: 69em;
+}
+
+
+.indent-1 {
+    padding-left:16px;
+}
+.indent-2 {
+    padding-left:32px;
+}
+.indent-3 {
+    padding-left:48px;
+}
+
+.bold {
+        font-weight:bold;
+    }
+.border {
+    border:solid 1px black;
+}
+
+.blue {
+    color:#248;
+}
+
+.bg-blue {
+    background:#248;
+    color:white;
+}
+
+.bg-blue p {
+        color:white;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.smaller {
+    font-size:0.9em;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.number,
+.text,
+.percentage,
+.currency,
+.decimal-4 {
+    text-align: right;
+}
+
+.grey {
+    background: lightgrey;
+    color:black;
+}
+
+.border-bottom {
+    border-bottom:solid;
+}
+
+.border-top {
+    border-top:solid;
+}
+
+.thick {
+    border-width: 2px;
+}
+
+.thin {
+    border-width: 1px;
+}
+
+.total {
+    border-top:solid 1px;
+    border-bottom:solid 2px;
+}
+
+.subtotal {
+    border-top:dotted 1px;
+}
+
+.printable {
+    font-size:0.6875em;
+}
+
+.printable .row {
+    margin:0;
+}
+
+.printable div.spacer {
+    height:0.3125em;
+}
+
+
+.printable h1 {
+    font-size: 0.8125em;
+    font-weight:bold;
+    margin:0.125em 0;
+}
+
+.printable p {
+    line-height: 1.4em;
+    margin:0;
+    font-size:0.95em;
+    padding: 0 0.3125em;
+}
+
+.printable .black {
+    background:black;
+}
+.printable .black p {
+    color:white;
+}
+.printable .grey {
+    background:grey;
+}
+
+.printable .grey p {
+    color:white;
+}
+
+.printable .cash-component {
+    border:solid 0.09em;
+}
+
+.printable .border-top-dashed {
+    border-top:dashed 0.09em;
+}
+.printable .border-bottom-dashed {
+    border-bottom:dashed 0.09em;
+}
+.printable .border-right-dashed {
+    border-right:dashed 0.09em;
+}
+.printable .border-left-dashed {
+    border-left:dashed 0.09em;
+}
+
+.printable .border-top-solid {
+    border-top: solid 0.09em black;
+}
+
+.printable .border-bottom-solid {
+    border-bottom: solid 0.09em black; 
+}
+
+.printable .border-left-solid {
+    border-left: solid 0.09em black; 
+}
+
+.printable .border-right-solid {
+    border-right: solid 0.09em black; 
+}
+
+.printable .indent {
+    padding-left:0.75em;
+}
+
+.printable .footer {
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+.printable .footer p.small-text {
+    font-size:0.7em;
+}
+
+.printable .footer p.medium-text {
+    font-size:0.9em;
+}
+
+.printable .footer p.sign-off {
+    min-height:1.5625em;
+}
+
+.printable .footer div.padding {
+    padding-left:1.25em; 
+    padding-right:1.25em;
+}
+
+.printable .col-md-1,
+.printable .col-md-2,
+.printable .col-md-3,
+.printable .col-md-4,
+.printable .col-md-5,
+.printable .col-md-6,
+.printable .col-md-7,
+.printable .col-md-8,
+.printable .col-md-9,
+.printable .col-md-10,
+.printable .col-md-11,
+.printable .col-md-12,
+.printable .col-xs-1,
+.printable .col-xs-2,
+.printable .col-xs-3,
+.printable .col-xs-4,
+.printable .col-xs-5,
+.printable .col-xs-6,
+.printable .col-xs-7,
+.printable .col-xs-8,
+.printable .col-xs-9,
+.printable .col-xs-10,
+.printable .col-xs-11,
+.printable .col-xs-12{
+    padding:0;
+}

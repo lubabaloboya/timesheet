@@ -1,0 +1,34 @@
+[
+    {
+        "application-library": [
+            "jquery-1.12.0.min",
+            "jquery_validate",
+            "jquery_validate_methods",
+            "jquery_browser",
+            "jquery_ui",
+            "bootstrap",
+            "bootstrap_datepicker",
+            "cropper",
+            "pagination",
+            "sortable",
+            "storage",
+            "table_sorter",
+            "z_chart",
+            "moment.min",
+            "fullcalendar",
+            "notify",
+            "general"
+        ],
+        "isarray-library": [
+            "login",
+            "requests",
+            "functions",
+            "forms",
+            "tabs",
+            "loaders",
+            "messages",
+            "print_setup",
+            "uploader"
+        ]
+    }
+]
